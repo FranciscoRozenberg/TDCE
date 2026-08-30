@@ -1,0 +1,36 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\users\CuadradoGris\Documents\TDCE\Regulador_Diferencial_MOS.net
+Start Time: Sat Aug 29 19:03:03 2026
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = trap
+.step rl=0.001
+.step rl=0.01
+.step rl=0.1
+Direct Newton iteration succeeded in finding operating point.
+.step rl=1
+.step rl=10
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+.step rl=100
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+.step rl=1000
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+.step rl=10000
+Total elapsed time: 1.109 seconds.
+
+Files loaded:
+C:\users\CuadradoGris\Documents\TDCE\Regulador_Diferencial_MOS.net
+C:\users\CuadradoGris\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\users\CuadradoGris\AppData\Local\LTspice\lib\cmp\standard.mos
+
