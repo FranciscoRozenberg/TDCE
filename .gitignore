@@ -1,3 +1,5 @@
 # Archivos generados por LTspice
 *.raw
 *.log
+*.plt
+
