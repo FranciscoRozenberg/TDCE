@@ -2,4 +2,4 @@
 *.raw
 *.log
 *.plt
-
+.history/
