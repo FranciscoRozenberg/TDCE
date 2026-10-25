@@ -825,219 +825,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Potentiometer"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RV"
-				(at -4.445 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_Potentiometer"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Potentiometer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Device" "R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Type" "POT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "resistor variable"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Potentiometer*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_0_1"
-				(rectangle
-					(start 1.016 2.54)
-					(end -1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Potentiometer_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -2855,7 +2642,7 @@
 	)
 	(text "Abrir LV\n"
 		(exclude_from_sim no)
-		(at 95.504 111.76 0)
+		(at 93.98 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2908,7 +2695,7 @@
 	)
 	(text "Abrir LC"
 		(exclude_from_sim no)
-		(at 241.554 84.836 0)
+		(at 242.316 84.836 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2963,7 +2750,7 @@
 		(uuid "37b55854-5f9d-4e18-8562-916694daa39d")
 	)
 	(junction
-		(at 38.1 129.54)
+		(at 39.37 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f000fd9-0a54-4261-ac53-5109bfface18")
@@ -2981,7 +2768,7 @@
 		(uuid "409718b2-cb7d-4c74-a04b-fa4bbfbb5de7")
 	)
 	(junction
-		(at 113.03 72.39)
+		(at 109.22 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45e2a91e-5713-40eb-af30-06ae4a880af3")
@@ -2999,12 +2786,6 @@
 		(uuid "47f10981-416f-4cea-b8bd-a537016da9e6")
 	)
 	(junction
-		(at 100.33 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48599b32-9c1a-4090-93ae-794de11539e2")
-	)
-	(junction
 		(at 191.77 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3017,7 +2798,7 @@
 		(uuid "5ae75da7-2dd8-4b30-b0bd-88eacf08a7af")
 	)
 	(junction
-		(at 64.77 63.5)
+		(at 63.5 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d3305cb-c004-4fe9-8928-5e2346c36b0d")
@@ -3029,7 +2810,7 @@
 		(uuid "621c0976-9581-4966-96a3-f61861b5b041")
 	)
 	(junction
-		(at 125.73 80.01)
+		(at 125.73 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "777ae65d-e9a2-47ea-8e65-73bb8ed5fb2b")
@@ -3041,7 +2822,7 @@
 		(uuid "7dedb3e7-edee-4869-9543-ef6d3a485928")
 	)
 	(junction
-		(at 30.48 124.46)
+		(at 30.48 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ab87cfc-4ae8-4aa6-88bd-2d5903f231ec")
@@ -3050,10 +2831,10 @@
 		(at 105.41 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "980e5afb-5f93-4c0b-8314-608293ffae87")
+		(uuid "9148e5f6-05ff-49fd-a6ce-114479ff5ffa")
 	)
 	(junction
-		(at 72.39 68.58)
+		(at 72.39 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a264c7cf-c640-4d72-b7d9-e89629ae9b96")
@@ -3075,12 +2856,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c69256f1-2664-4385-9590-d26abe6338ad")
-	)
-	(junction
-		(at 105.41 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce198297-c457-455b-b158-4c705e6c0b0e")
 	)
 	(junction
 		(at 229.87 81.28)
@@ -3146,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 77.47) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028575c3-402f-49ce-a3b2-c94c8af3c72c")
+	)
+	(wire
+		(pts
 			(xy 60.96 116.84) (xy 62.23 116.84)
 		)
 		(stroke
@@ -3166,16 +2951,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 109.22) (xy 105.41 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0651b873-4afc-4dbd-9db9-b3c8fb932261")
-	)
-	(wire
-		(pts
 			(xy 62.23 116.84) (xy 62.23 124.46)
 		)
 		(stroke
@@ -3193,16 +2968,6 @@
 			(type default)
 		)
 		(uuid "09bd9a2f-b7e0-4ee3-ac47-24196fb2dcad")
-	)
-	(wire
-		(pts
-			(xy 105.41 120.65) (xy 105.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aed5acc-e999-4c50-b396-4e12d5a4cfd1")
 	)
 	(wire
 		(pts
@@ -3256,7 +3021,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 81.28) (xy 250.19 81.28)
+			(xy 247.65 81.28) (xy 252.73 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3376,6 +3141,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 109.22) (xy 109.22 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aed79f4-a75b-4704-8a57-3c069f20e31f")
+	)
+	(wire
+		(pts
 			(xy 161.29 21.59) (xy 161.29 22.86)
 		)
 		(stroke
@@ -3406,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 102.87 72.39)
+			(xy 96.52 85.09) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3466,13 +3241,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 63.5) (xy 64.77 68.58)
+			(xy 63.5 63.5) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4186cbd2-08e8-4008-ada5-24619faced2b")
+	)
+	(wire
+		(pts
+			(xy 105.41 109.22) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4232b65d-4ce3-49f1-8148-e9bd3ea9ba4d")
 	)
 	(wire
 		(pts
@@ -3526,16 +3311,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 116.84) (xy 181.61 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd487ad-47bf-45d1-84dd-d103feb092f1")
-	)
-	(wire
-		(pts
 			(xy 191.77 138.43) (xy 191.77 140.97)
 		)
 		(stroke
@@ -3546,7 +3321,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 124.46) (xy 38.1 124.46)
+			(xy 30.48 123.19) (xy 39.37 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3566,6 +3341,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 73.66) (xy 109.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d85901-0b37-4c21-a652-dbf18c1067c1")
+	)
+	(wire
+		(pts
 			(xy 59.69 63.5) (xy 64.77 63.5)
 		)
 		(stroke
@@ -3576,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 72.39) (xy 113.03 72.39)
+			(xy 96.52 72.39) (xy 118.11 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3381,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 81.28) (xy 236.22 81.28)
+			(xy 229.87 81.28) (xy 237.49 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3606,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 102.87) (xy 85.09 109.22)
+			(xy 85.09 101.6) (xy 85.09 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3626,23 +3411,13 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 85.09) (xy 102.87 85.09)
+			(xy 52.07 85.09) (xy 85.09 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6bd8508c-8d74-4f28-81d4-5fe4196c1b06")
-	)
-	(wire
-		(pts
-			(xy 38.1 129.54) (xy 54.61 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "715bc0f2-0f1b-49eb-aae7-074ac366423a")
 	)
 	(wire
 		(pts
@@ -3666,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 109.22) (xy 88.9 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f10496c-b632-4dfc-b61e-3d8a06400470")
+	)
+	(wire
+		(pts
 			(xy 125.73 63.5) (xy 125.73 67.31)
 		)
 		(stroke
@@ -3676,7 +3461,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 125.73 97.79)
+			(xy 125.73 95.25) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3693,16 +3478,6 @@
 			(type default)
 		)
 		(uuid "85246d14-3dcb-43df-83fb-60cf28661d56")
-	)
-	(wire
-		(pts
-			(xy 99.06 121.92) (xy 105.41 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8793aee7-48d7-42be-a621-78fbba399327")
 	)
 	(wire
 		(pts
@@ -3736,16 +3511,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 125.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "886971c0-0600-47e9-b90d-4eb3c3c21d67")
-	)
-	(wire
-		(pts
 			(xy 189.23 138.43) (xy 191.77 138.43)
 		)
 		(stroke
@@ -3756,13 +3521,23 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 81.28) (xy 266.7 81.28)
+			(xy 260.35 81.28) (xy 266.7 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "95e63664-f882-4bd6-aa12-6df3b857b9ef")
+	)
+	(wire
+		(pts
+			(xy 38.1 129.54) (xy 54.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f51b70-b0ee-4a57-9a1f-59811dc26668")
 	)
 	(wire
 		(pts
@@ -3776,33 +3551,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 166.37 66.04)
+			(xy 161.29 66.04) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9a46c4eb-c430-4b06-be77-dab9025bbe6e")
-	)
-	(wire
-		(pts
-			(xy 176.53 95.25) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c8461f4-597e-4f43-830f-9a921074fb83")
-	)
-	(wire
-		(pts
-			(xy 176.53 138.43) (xy 181.61 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ccc6da8-d721-43e8-a245-f8d2071b13aa")
 	)
 	(wire
 		(pts
@@ -3823,6 +3578,16 @@
 			(type default)
 		)
 		(uuid "a07644c9-612b-4672-9636-155507ff4c23")
+	)
+	(wire
+		(pts
+			(xy 96.52 85.09) (xy 85.09 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a616b972-d009-4dd6-879b-fbf014a8ccb4")
 	)
 	(wire
 		(pts
@@ -3853,16 +3618,6 @@
 			(type default)
 		)
 		(uuid "aa6579bf-e044-4d9e-b273-510dfe6eee02")
-	)
-	(wire
-		(pts
-			(xy 99.06 116.84) (xy 99.06 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb3fedc-c654-4809-b883-47c4a7175db0")
 	)
 	(wire
 		(pts
@@ -3916,33 +3671,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 121.92) (xy 30.48 124.46)
+			(xy 99.06 109.22) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8368720-e9f9-4793-a342-6ffa540b9152")
-	)
-	(wire
-		(pts
-			(xy 105.41 121.92) (xy 105.41 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcc4bca5-7e5f-492c-8577-74c3a017e734")
-	)
-	(wire
-		(pts
-			(xy 97.79 109.22) (xy 100.33 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be62f07e-f1f6-47c1-925c-56d6b3fb6393")
+		(uuid "b6f3f63a-f3d0-4a47-921c-55af5517a5aa")
 	)
 	(wire
 		(pts
@@ -3956,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 85.09) (xy 85.09 95.25)
+			(xy 85.09 85.09) (xy 85.09 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3976,16 +3711,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84) (xy 99.06 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c64f332c-f9de-43f3-99f7-63e00cd8cb55")
-	)
-	(wire
-		(pts
 			(xy 189.23 95.25) (xy 191.77 95.25)
 		)
 		(stroke
@@ -3993,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "c8a1130f-208f-4698-993a-1a598f6041f3")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5132e9-45b8-429d-b868-a99cc4c0511c")
 	)
 	(wire
 		(pts
@@ -4006,7 +3741,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 95.25) (xy 166.37 95.25)
+			(xy 161.29 95.25) (xy 181.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4023,16 +3758,6 @@
 			(type default)
 		)
 		(uuid "ce9441bf-d8f0-418d-9c35-5a281b8cd0c7")
-	)
-	(wire
-		(pts
-			(xy 105.41 109.22) (xy 109.22 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ced0daa0-7425-4ef0-81c7-8a6a5c11abd4")
 	)
 	(wire
 		(pts
@@ -4076,7 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 86.36) (xy 274.32 90.17)
+			(xy 274.32 86.36) (xy 274.32 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4106,13 +3831,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 72.39) (xy 118.11 72.39)
+			(xy 30.48 121.92) (xy 30.48 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2c0d904-93d0-40f5-9e30-a8b8cb400c23")
+		(uuid "e2fc3163-56ac-43ce-896c-d7be22263456")
 	)
 	(wire
 		(pts
@@ -4126,6 +3851,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 82.55) (xy 109.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bd36a0-3ddf-4335-918a-297211cab1a8")
+	)
+	(wire
+		(pts
 			(xy 62.23 134.62) (xy 62.23 137.16)
 		)
 		(stroke
@@ -4136,17 +3871,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 109.22) (xy 105.41 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8cdc321-2759-420a-b503-20fb0765aefa")
-	)
-	(wire
-		(pts
-			(xy 113.03 80.01) (xy 125.73 80.01)
+			(xy 109.22 82.55) (xy 125.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4156,7 +3881,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 38.1 129.54)
+			(xy 39.37 123.19) (xy 39.37 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4166,7 +3891,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 64.77 68.58)
+			(xy 72.39 69.85) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4176,7 +3901,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 138.43) (xy 166.37 138.43)
+			(xy 161.29 138.43) (xy 181.61 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4196,17 +3921,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 66.04) (xy 181.61 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ec4908-15b7-494c-9d72-615479932ebf")
-	)
-	(wire
-		(pts
-			(xy 161.29 116.84) (xy 166.37 116.84)
+			(xy 161.29 116.84) (xy 181.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4236,16 +3951,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 80.01) (xy 125.73 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc5f56e6-b650-403e-8f1b-9e214ed951a0")
-	)
-	(wire
-		(pts
 			(xy 25.4 92.71) (xy 25.4 95.25)
 		)
 		(stroke
@@ -4253,16 +3958,6 @@
 			(type default)
 		)
 		(uuid "fc66353f-5377-4d64-84e5-3f211849a320")
-	)
-	(wire
-		(pts
-			(xy 80.01 109.22) (xy 90.17 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe867988-d89e-4356-bdf2-7290b5e755cd")
 	)
 	(wire
 		(pts
@@ -4315,7 +4010,7 @@
 		(uuid "14b4f1f3-f575-472c-90f5-0ade53c4d763")
 	)
 	(label "drain"
-		(at 125.73 80.01 0)
+		(at 125.73 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4464,7 +4159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08e954b9-1503-442c-918e-27b1eeab0d9d")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 33.02 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4528,7 +4223,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5062,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Value" "820p"
+		(property "Value" "1.2n"
 			(at 115.57 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5229,8 +4924,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "25262fe0-f4e9-4fce-b253-deb653831b26")
-		(property "Reference" "R8"
-			(at 184.15 93.218 90)
+		(property "Reference" "R11"
+			(at 183.388 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5240,7 +4935,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 186.944 93.218 90)
+			(at 188.214 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5291,7 +4986,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5387,7 +5082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32fc838f-7c87-4085-ac72-f5590e7fc828")
-		(property "Reference" "C4"
+		(property "Reference" "CF1"
 			(at 217.17 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5407,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W5.0mm_P10.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
 			(at 220.98 54.9148 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5144,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "C4")
+					(reference "CF1")
 					(unit 1)
 				)
 			)
@@ -5457,7 +5152,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 254 81.28 90)
+		(at 256.54 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5468,7 +5163,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e60b1d2-92b7-471c-9d77-4764d3830083")
 		(property "Reference" "R15"
-			(at 254 74.93 90)
+			(at 256.54 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5478,7 +5173,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 254 77.47 90)
+			(at 256.54 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5488,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 254 83.058 90)
+			(at 256.54 83.058 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5499,7 +5194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 81.28 0)
+			(at 256.54 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5205,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 254 81.28 0)
+			(at 256.54 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "423c9542-6f0d-400d-9834-9dc2e6c0e6bf")
-		(property "Reference" "JP15"
+		(property "Reference" "JP1"
 			(at 38.1 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5382,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP15")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5399,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46925e07-96e6-47c2-8049-99ee544e8194")
-		(property "Reference" "R17"
+		(property "Reference" "R1"
 			(at 57.15 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5714,7 +5409,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 57.15 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5766,87 +5461,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 171.45 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46ee77f8-8ad9-41a0-a0eb-2b4bf861a40e")
-		(property "Reference" "JP10"
-			(at 171.45 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 171.45 63.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 171.45 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 171.45 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f2887f4f-4a65-40e5-98c5-4f9a4d2edbb3")
-		)
-		(pin "2"
-			(uuid "7045110a-d64b-403b-8a1d-a6a4395e3c16")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5865,7 +5480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a1be6e3-0085-405e-84d8-b76cd5a45766")
-		(property "Reference" "Q11"
+		(property "Reference" "Q7"
 			(at 276.86 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5968,7 +5583,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "Q11")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -6063,7 +5678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "539dfaa8-c33b-45f9-9309-301516f4ef21")
-		(property "Reference" "R9"
+		(property "Reference" "R12"
 			(at 183.134 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6074,7 +5689,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 187.198 114.808 90)
+			(at 187.96 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6125,7 +5740,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6143,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53a2aa9a-e603-4008-9e1b-6d13bfc6e268")
-		(property "Reference" "R13"
+		(property "Reference" "R4"
 			(at 54.61 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6207,7 +5822,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R13")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6226,7 +5841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53ad15d6-c377-4733-b1d0-9930b76b6104")
-		(property "Reference" "Q5"
+		(property "Reference" "MOS1"
 			(at 129.54 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6326,87 +5941,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 171.45 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "596fbf10-5c3e-47cd-9bc6-85d33fafa5bd")
-		(property "Reference" "JP13"
-			(at 171.45 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 171.45 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 171.45 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 171.45 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1239fe98-7ac6-4128-9585-d9de963dd117")
-		)
-		(pin "2"
-			(uuid "ffe1f7f6-a3ed-43a4-891b-165003676db7")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP13")
+					(reference "MOS1")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b902fd0-5418-4576-b564-59b8d81ca9b1")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 115.57 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6047,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 115.57 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6099,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6583,7 +6118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62a56a24-0f50-4664-9f73-c026a37c5187")
-		(property "Reference" "Q9"
+		(property "Reference" "Q5"
 			(at 49.53 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6675,7 +6210,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "Q9")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -6683,7 +6218,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 95.25 109.22 0)
+		(at 93.98 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6693,8 +6228,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6338665e-f162-4c2a-b774-be2800512d3a")
-		(property "Reference" "JP7"
-			(at 95.25 104.14 0)
+		(property "Reference" "JP2"
+			(at 93.98 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6704,7 +6239,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 95.25 106.68 0)
+			(at 93.98 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6714,7 +6249,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 95.25 109.22 0)
+			(at 93.98 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6725,7 +6260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 114.3 0)
+			(at 93.98 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6736,7 +6271,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 95.25 116.84 0)
+			(at 93.98 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6755,7 +6290,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP7")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -6773,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a955239-6a70-4434-945c-822351c230bd")
-		(property "Reference" "R2"
+		(property "Reference" "RL1"
 			(at 128.27 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,7 +6372,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R2")
+					(reference "RL1")
 					(unit 1)
 				)
 			)
@@ -7112,7 +6647,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 241.3 81.28 0)
+		(at 242.57 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7122,8 +6657,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722c79c9-d1af-4057-86bb-6a282e615ea0")
-		(property "Reference" "JP8"
-			(at 241.3 76.2 0)
+		(property "Reference" "JP4"
+			(at 242.57 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7133,7 +6668,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 241.3 78.74 0)
+			(at 242.57 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7143,7 +6678,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 241.3 81.28 0)
+			(at 242.57 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7154,7 +6689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 86.36 0)
+			(at 242.57 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +6700,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 241.3 88.9 0)
+			(at 242.57 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +6719,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP8")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -7385,86 +6920,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 171.45 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7782e09f-03e8-4c23-9dcc-d3e1d13015eb")
-		(property "Reference" "JP11"
-			(at 171.45 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 171.45 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 171.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 171.45 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d193482-b033-481c-8712-b04a9a4c6726")
-		)
-		(pin "2"
-			(uuid "f87e30ec-23db-4a98-bf0a-5996485f9fd6")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 185.42 21.59 90)
 		(unit 1)
@@ -7475,7 +6930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77c140fd-dccc-4c69-8edc-11f98b6fc3c6")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 183.896 19.558 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7537,7 +6992,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -7655,86 +7110,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 171.45 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82b58628-798d-4660-a433-ee09a6c0c5c9")
-		(property "Reference" "JP12"
-			(at 171.45 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 171.45 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 171.45 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 171.45 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b8767d9-9d9a-49eb-8bed-bdef5f5bb81b")
-		)
-		(pin "2"
-			(uuid "66e3f46c-04c5-4214-8897-32fe3ed58cb8")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 31.75 170.18 0)
 		(unit 1)
@@ -7823,7 +7198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a0dfa5f-1796-4c8d-a68c-88a41519f985")
-		(property "Reference" "R7"
+		(property "Reference" "R10"
 			(at 184.15 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7885,7 +7260,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R7")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8003,8 +7378,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 85.09 99.06 0)
+		(lib_id "Device:R")
+		(at 105.41 114.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8012,32 +7387,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ac47bda1-db3a-443a-8c4d-78e596ffc451")
-		(property "Reference" "C3"
-			(at 88.9 97.7899 0)
+		(uuid "a219ed0e-9cc3-4039-9764-f70760686b71")
+		(property "Reference" "R7"
+			(at 99.822 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1n"
-			(at 88.9 100.3299 0)
+		(property "Value" "5k1"
+			(at 100.076 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 86.0552 102.87 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 107.188 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8048,7 +7422,89 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 99.06 0)
+			(at 105.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 105.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6855b40-5e5b-472e-b543-68bfa018f080")
+		)
+		(pin "1"
+			(uuid "8e1343b2-e72d-49d0-99ec-8b8743015a48")
+		)
+		(instances
+			(project "Esquema_y_PCB"
+				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 85.09 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac47bda1-db3a-443a-8c4d-78e596ffc451")
+		(property "Reference" "C3"
+			(at 88.9 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1n"
+			(at 88.9 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 86.0552 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +7515,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 85.09 99.06 0)
+			(at 85.09 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +7729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0c559ca-2cef-4e8c-9d44-075387cd71c9")
-		(property "Reference" "R10"
+		(property "Reference" "R13"
 			(at 183.388 136.398 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8335,7 +7791,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8343,7 +7799,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 125.73 88.9 90)
+		(at 125.73 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8353,8 +7809,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f3d8d0-5f68-473c-9fed-8543a814344d")
-		(property "Reference" "JP9"
-			(at 127 87.6299 90)
+		(property "Reference" "JP3"
+			(at 127 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8365,7 +7821,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 127 90.1699 90)
+			(at 127 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8376,7 +7832,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 125.73 88.9 0)
+			(at 125.73 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +7843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 88.9 0)
+			(at 130.81 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8398,7 +7854,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 133.35 88.9 0)
+			(at 133.35 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8417,7 +7873,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP9")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -8513,7 +7969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b50c74df-fb82-42e3-b330-7fa3b4f2594b")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 194.31 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,7 +8033,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8585,7 +8041,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 76.2 0)
+		(at 109.22 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8596,7 +8052,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb081d69-9ef0-4ba3-9fc9-152a676155f3")
 		(property "Reference" "C1"
-			(at 116.84 74.9299 0)
+			(at 113.03 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8607,7 +8063,7 @@
 			)
 		)
 		(property "Value" "1.5n"
-			(at 116.84 77.4699 0)
+			(at 113.03 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8618,7 +8074,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
-			(at 113.9952 80.01 0)
+			(at 110.1852 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 76.2 0)
+			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8640,7 +8096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 76.2 0)
+			(at 109.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +8694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da3032df-6531-491a-a324-8d0a97abf11e")
-		(property "Reference" "Q10"
+		(property "Reference" "Q6"
 			(at 74.93 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +8797,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "Q10")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9359,7 +8815,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0d7e388-4bee-4ff2-b78f-5614f1d7a03c")
-		(property "Reference" "R14"
+		(property "Reference" "R5"
 			(at 69.85 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9423,7 +8879,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R14")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -9508,88 +8964,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 274.32 95.25 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e43c1aa5-4dc3-482c-9504-341d84b05f2f")
-		(property "Reference" "JP14"
-			(at 271.78 93.9799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_2_Bridged"
-			(at 271.78 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 274.32 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 279.4 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 281.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9900431f-012c-4ee4-be82-2ebd51eb14c3")
-		)
-		(pin "2"
-			(uuid "e8bba3c1-a8cd-4b18-ab57-4efa18ecc856")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "JP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 116.84 90)
 		(mirror x)
@@ -9601,7 +8975,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eba1d7af-239c-4afd-b3de-b7021473b195")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 67.31 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9611,7 +8985,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "1k"
 			(at 67.31 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,7 +9037,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9680,7 +9054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeb28dec-2027-4d36-8bb0-34101c8888a5")
-		(property "Reference" "R6"
+		(property "Reference" "R9"
 			(at 183.896 39.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9742,7 +9116,7 @@
 		(instances
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9923,123 +9297,6 @@
 			(project "Esquema_y_PCB"
 				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
 					(reference "RS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 105.41 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fda13c6a-d3c7-4c7c-9160-b22f914c5e9b")
-		(property "Reference" "RV1"
-			(at 94.742 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 88.9 123.444 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical"
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 105.41 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6aaa811f-318e-43b9-9f25-fba0cd741e4b")
-		)
-		(pin "3"
-			(uuid "4a04ccf8-9a5f-4f5e-853e-2e9d9626b538")
-		)
-		(pin "2"
-			(uuid "4f1206da-a283-4e91-83e0-1ac9fab10842")
-		)
-		(instances
-			(project "Esquema_y_PCB"
-				(path "/717c451f-2f47-4c36-a5ff-63d8ffe7723d"
-					(reference "RV1")
 					(unit 1)
 				)
 			)
