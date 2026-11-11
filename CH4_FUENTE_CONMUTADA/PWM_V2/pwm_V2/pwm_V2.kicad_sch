@@ -2457,7 +2457,7 @@
 		(at 69.85 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0d778906-3e0f-464e-814d-f46ffc48d0dc")
+		(uuid "06e71f83-29f7-4062-83dc-926a080000d8")
 	)
 	(junction
 		(at 234.95 107.95)
@@ -3099,6 +3099,16 @@
 		)
 		(uuid "ff096bba-949c-44df-9b8a-d103d7a339a8")
 	)
+	(label "SIN"
+		(at 153.67 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24c3aea0-8b11-4eb8-8201-e991e1c59997")
+	)
 	(label "FIL"
 		(at 187.96 116.84 0)
 		(effects
@@ -3504,7 +3514,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 165.1 88.9 0)
+		(at 62.23 83.82 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -3515,7 +3525,7 @@
 		(dnp no)
 		(uuid "14bd905e-13b9-4064-8628-1482d914a24f")
 		(property "Reference" "U2"
-			(at 165.1 99.06 0)
+			(at 62.23 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3525,7 +3535,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 165.1 96.52 0)
+			(at 62.23 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3535,7 +3545,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
-			(at 165.1 88.9 0)
+			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3546,7 +3556,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 165.1 88.9 0)
+			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,7 +3567,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 165.1 88.9 0)
+			(at 62.23 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,7 +5506,7 @@
 	)
 	(symbol
 		(lib_id "Comparator:LM393")
-		(at 62.23 83.82 0)
+		(at 165.1 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5507,7 +5517,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18c7bd4-9194-406a-bc84-7c3ee1aa979b")
 		(property "Reference" "U2"
-			(at 62.23 73.66 0)
+			(at 165.1 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5517,7 +5527,7 @@
 			)
 		)
 		(property "Value" "LM393"
-			(at 62.23 76.2 0)
+			(at 165.1 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5527,7 +5537,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_LongPads"
-			(at 62.23 83.82 0)
+			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5548,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm393.pdf"
-			(at 62.23 83.82 0)
+			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5559,7 @@
 			)
 		)
 		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 62.23 83.82 0)
+			(at 165.1 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6012,8 +6022,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 100.33 83.82 90)
-		(mirror x)
+		(at 100.33 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
